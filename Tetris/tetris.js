@@ -2,7 +2,7 @@
 
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
-context.scale(24, 24); // Each block is 24x24 px
+context.scale(24, 24);
 
 const scoreElem = document.getElementById('score');
 const restartBtn = document.getElementById('restart');
