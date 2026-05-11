@@ -11,6 +11,14 @@ function drawPlayer() {
   ctx.fillRect(player.x, player.y, player.width, player.height);
 }
 
+// your custom sprite
+let playerImg = new Image();
+playerImg.src = "politician.png"; 
+
+function drawPlayer() {
+  ctx.drawImage(playerImg, player.x, player.y, player.width, player.height);
+}
+
 // Draw obstacles
 function drawObstacles() {
   ctx.fillStyle = "red";
